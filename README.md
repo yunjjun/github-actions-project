@@ -1,2 +1,5 @@
-# Wine quality prediction
-Modelling a Kaggle dataset of [red wine properties and quality ratings](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009).
+# Modeling Swiss farmer's attitudes about climate change
+
+Modeling data from [Kreft et al. 2020](https://www.sciencedirect.com/science/article/pii/S2352340920303048).
+
+
