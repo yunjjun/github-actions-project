@@ -16,7 +16,7 @@ jobs:
         env:
           REPO_TOKEN: ${{ secrets.CML_GITHUB_ACCESS_TOKEN }}
         run: |
-          git fetch --depth=1 origin main:main
+          git fetch --prune
           dvc metrics diff --show-md main >> report.md
 
           echo "## Validating results by region" >> report.md
